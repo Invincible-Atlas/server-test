@@ -8,7 +8,6 @@
 # IRC: #paperspigot @ irc.spi.gt ( http://irc.spi.gt/iris/?channels=PaperSpigot )
 
 config-version: 9
-data-value-allowed-items: []
 settings:
   baby-zombie-movement-speed: 0.5
   limit-player-interactions: true
@@ -20,6 +19,7 @@ stackable-buckets:
   water: false
   milk: false
 warnWhenSettingExcessiveVelocity: true
+data-value-allowed-items: []
 world-settings:
   default:
     verbose: true
@@ -79,8 +79,8 @@ world-settings:
       tnt-entities: false
       falling-blocks: false
     disable-explosion-knockback: false
-    fix-cannons: false
     water-over-lava-flow-speed: 5
+    fix-cannons: false
     tnt-entity-height-nerf: 0
     use-hopper-check: false
     all-chunks-are-slime-chunks: false
