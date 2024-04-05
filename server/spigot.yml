@@ -45,7 +45,6 @@ timings:
   history-length: 3600
 commands:
   tab-complete: 0
-  log: true
   spam-exclusions:
   - /skill
   silent-commandblock-console: false
@@ -54,6 +53,7 @@ commands:
   - summon
   - testforblock
   - tellraw
+  log: true
 messages:
   whitelist: You are not whitelisted on this server!
   unknown-command: Unknown command. Type "/help" for help.
@@ -67,7 +67,6 @@ stats:
 world-settings:
   default:
     verbose: true
-    mob-spawn-range: 4
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -89,6 +88,7 @@ world-settings:
       - 1
       - 5
     nerf-spawner-mobs: false
+    mob-spawn-range: 4
     growth:
       cactus-modifier: 100
       cane-modifier: 100

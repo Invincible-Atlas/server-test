@@ -1,293 +1,292 @@
-[11:21:29] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[11:21:29] [Server thread/INFO]: Loading properties
-[11:21:29] [Server thread/INFO]: Default game type: SURVIVAL
-[11:21:29] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[11:21:29] [Server thread/INFO]: Debug logging is disabled
-[11:21:29] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[11:21:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:55:13] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[13:55:13] [Server thread/INFO]: Loading properties
+[13:55:13] [Server thread/INFO]: Default game type: SURVIVAL
+[13:55:13] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[13:55:13] [Server thread/INFO]: Debug logging is disabled
+[13:55:13] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[13:55:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[11:21:29] [Server thread/INFO]: Using 4 threads for Netty based IO
-[11:21:29] [Server thread/INFO]: Data value allowed items: 
-[11:21:29] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[13:55:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:55:13] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
 
-[11:21:29] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[13:55:13] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
 
-[11:21:29] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+[13:55:13] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
 
-[11:21:29] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[13:55:13] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 
-[11:21:29] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[13:55:13] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 
-[11:21:29] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+[13:55:13] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
 
-[11:21:29] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+[13:55:13] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
 
-[11:21:29] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+[13:55:13] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
 
-[11:21:29] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[13:55:13] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[11:21:29] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[13:55:13] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[11:21:29] [Server thread/INFO]: Generating keypair
-[11:21:29] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[11:21:29] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[11:21:29] [Server thread/INFO]: Using default channel type
-[11:21:30] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[11:21:30] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
-[11:21:30] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.121
-[11:21:30] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[11:21:30] [Server thread/INFO]: [PluginConstructorAPI] Loading PluginConstructorAPI v1.0.50
-[11:21:30] [Server thread/INFO]: [SeePlayerInventory] Loading SeePlayerInventory v1.9
-[11:21:30] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[11:21:30] [Server thread/INFO]: [GrimAC] Loading GrimAC v2.3.59
-[11:21:31] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
-[11:21:31] [Server thread/INFO]: [LandClaiming] Loading LandClaiming v1.4.11
-[11:21:31] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
-[11:21:31] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[11:21:31] [Server thread/INFO]: [CS-CoreLib] Loading CS-CoreLib v1.6.2
-[11:21:31] [Server thread/INFO]: [SuperVanish] Loading SuperVanish v6.2.18
-[11:21:31] [Server thread/INFO]: [ChatColor] Loading ChatColor v1.8
-[11:21:31] [Server thread/INFO]: [Slimefun] Loading Slimefun vv4.1.15
-[11:21:31] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.121
-[11:21:31] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[13:55:13] [Server thread/INFO]: Data value allowed items: 
+[13:55:13] [Server thread/INFO]: Generating keypair
+[13:55:13] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[13:55:13] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[13:55:13] [Server thread/INFO]: Using default channel type
+[13:55:13] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[13:55:14] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[13:55:14] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.121
+[13:55:14] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[13:55:14] [Server thread/INFO]: [PluginConstructorAPI] Loading PluginConstructorAPI v1.0.50
+[13:55:14] [Server thread/INFO]: [SeePlayerInventory] Loading SeePlayerInventory v1.9
+[13:55:14] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[13:55:14] [Server thread/INFO]: [GrimAC] Loading GrimAC v2.3.59
+[13:55:14] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
+[13:55:14] [Server thread/INFO]: [LandClaiming] Loading LandClaiming v1.4.11
+[13:55:14] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[13:55:14] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[13:55:14] [Server thread/INFO]: [CS-CoreLib] Loading CS-CoreLib v1.6.2
+[13:55:14] [Server thread/INFO]: [SuperVanish] Loading SuperVanish v6.2.18
+[13:55:14] [Server thread/INFO]: [ChatColor] Loading ChatColor v1.8
+[13:55:14] [Server thread/INFO]: [LPC] Loading LPC v3.6.0
+[13:55:14] [Server thread/INFO]: [Slimefun] Loading Slimefun vv4.1.15
+[13:55:14] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.121
+[13:55:15] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
 
-[11:21:31] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.121[m
+[13:55:15] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.121[m
 
-[11:21:31] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[13:55:15] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
 
-[11:21:31] [Server thread/INFO]: [m
+[13:55:15] [Server thread/INFO]: [m
 
-[11:21:31] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[11:21:32] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[11:21:34] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[11:21:35] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[11:21:35] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 4069ms)
-[11:21:35] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:21:35] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:21:35] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[11:21:35] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[11:21:35] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:21:35] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[11:21:35] [Server thread/INFO]: Preparing level "world"
-[11:21:35] [Server thread/INFO]: -------- World Settings For [world] --------
-[11:21:35] [Server thread/INFO]: Mob Spawn Range: 4
-[11:21:35] [Server thread/INFO]: Anti X-Ray: true
-[11:21:35] [Server thread/INFO]: 	Engine Mode: 1
-[11:21:35] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[11:21:35] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[11:21:35] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[11:21:35] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[11:21:35] [Server thread/INFO]: Cane Growth Modifier: 100%
-[11:21:35] [Server thread/INFO]: Melon Growth Modifier: 100%
-[11:21:35] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[11:21:35] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[11:21:35] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[11:21:35] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[11:21:35] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[11:21:35] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[11:21:35] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[11:21:35] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[11:21:35] [Server thread/INFO]: Random Lighting Updates: false
-[11:21:35] [Server thread/INFO]: Structure Info Saving: true
-[11:21:35] [Server thread/INFO]: Sending up to 10 chunks per packet
-[11:21:35] [Server thread/INFO]: Max Entity Collisions: 8
-[11:21:35] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[11:21:35] [Server thread/INFO]: Max TNT Explosions: 100
-[11:21:35] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[11:21:35] [Server thread/INFO]: Item Despawn Rate: 6000
-[11:21:35] [Server thread/INFO]: Item Merge Radius: 2.5
-[11:21:35] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[11:21:35] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[11:21:35] [Server thread/INFO]: View Distance: 4
-[11:21:35] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[11:21:35] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[11:21:35] [Server thread/INFO]: Clear tick list: false
-[11:21:35] [Server thread/INFO]: Experience Merge Radius: 3.0
-[11:21:36] [Server thread/INFO]: -------- World Settings For [world] --------
-[11:21:36] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[11:21:36] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[11:21:36] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[11:21:36] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[11:21:36] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[11:21:36] [Server thread/INFO]: Water over lava flow speed: 5
-[11:21:36] [Server thread/INFO]: Fix TNT cannons: false
-[11:21:36] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[11:21:36] [Server thread/INFO]: Keep spawn chunk loaded: true
-[11:21:36] [Server thread/INFO]: World async lighting: false
-[11:21:36] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[11:21:36] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[11:21:36] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[11:21:36] [Server thread/INFO]: Mob Spawn Range: 4
-[11:21:36] [Server thread/INFO]: Anti X-Ray: true
-[11:21:36] [Server thread/INFO]: 	Engine Mode: 1
-[11:21:36] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[11:21:36] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[11:21:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[11:21:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[11:21:36] [Server thread/INFO]: Cane Growth Modifier: 100%
-[11:21:36] [Server thread/INFO]: Melon Growth Modifier: 100%
-[11:21:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[11:21:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[11:21:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[11:21:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[11:21:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[11:21:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[11:21:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[11:21:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[11:21:36] [Server thread/INFO]: Random Lighting Updates: false
-[11:21:36] [Server thread/INFO]: Structure Info Saving: true
-[11:21:36] [Server thread/INFO]: Sending up to 10 chunks per packet
-[11:21:36] [Server thread/INFO]: Max Entity Collisions: 8
-[11:21:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[11:21:36] [Server thread/INFO]: Max TNT Explosions: 100
-[11:21:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[11:21:36] [Server thread/INFO]: Item Despawn Rate: 6000
-[11:21:36] [Server thread/INFO]: Item Merge Radius: 2.5
-[11:21:36] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[11:21:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[11:21:36] [Server thread/INFO]: View Distance: 4
-[11:21:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[11:21:36] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[11:21:36] [Server thread/INFO]: Clear tick list: false
-[11:21:36] [Server thread/INFO]: Experience Merge Radius: 3.0
-[11:21:36] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[11:21:36] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[11:21:36] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[11:21:36] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[11:21:36] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[11:21:36] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[11:21:36] [Server thread/INFO]: Water over lava flow speed: 5
-[11:21:36] [Server thread/INFO]: Fix TNT cannons: false
-[11:21:36] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[11:21:36] [Server thread/INFO]: Keep spawn chunk loaded: true
-[11:21:36] [Server thread/INFO]: World async lighting: false
-[11:21:36] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[11:21:36] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[11:21:36] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[11:21:36] [Server thread/INFO]: Mob Spawn Range: 4
-[11:21:36] [Server thread/INFO]: Anti X-Ray: true
-[11:21:36] [Server thread/INFO]: 	Engine Mode: 1
-[11:21:36] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[11:21:36] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[11:21:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[11:21:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[11:21:36] [Server thread/INFO]: Cane Growth Modifier: 100%
-[11:21:36] [Server thread/INFO]: Melon Growth Modifier: 100%
-[11:21:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[11:21:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[11:21:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[11:21:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[11:21:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[11:21:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[11:21:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[11:21:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[11:21:36] [Server thread/INFO]: Random Lighting Updates: false
-[11:21:36] [Server thread/INFO]: Structure Info Saving: true
-[11:21:36] [Server thread/INFO]: Sending up to 10 chunks per packet
-[11:21:36] [Server thread/INFO]: Max Entity Collisions: 8
-[11:21:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[11:21:36] [Server thread/INFO]: Max TNT Explosions: 100
-[11:21:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[11:21:36] [Server thread/INFO]: Item Despawn Rate: 6000
-[11:21:36] [Server thread/INFO]: Item Merge Radius: 2.5
-[11:21:36] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[11:21:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[11:21:36] [Server thread/INFO]: View Distance: 4
-[11:21:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[11:21:36] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[11:21:36] [Server thread/INFO]: Clear tick list: false
-[11:21:36] [Server thread/INFO]: Experience Merge Radius: 3.0
-[11:21:36] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[11:21:36] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[11:21:36] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[11:21:36] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[11:21:36] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[11:21:36] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[11:21:36] [Server thread/INFO]: Water over lava flow speed: 5
-[11:21:36] [Server thread/INFO]: Fix TNT cannons: false
-[11:21:36] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[11:21:36] [Server thread/INFO]: Keep spawn chunk loaded: true
-[11:21:36] [Server thread/INFO]: World async lighting: false
-[11:21:36] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[11:21:36] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[11:21:36] [Server thread/INFO]: Preparing start region for level 0 (Seed: -2115237618971391858)
-[11:21:37] [Server thread/INFO]: Preparing spawn area: 12%
-[11:21:38] [Server thread/INFO]: Preparing spawn area: 43%
-[11:21:39] [Server thread/INFO]: Preparing spawn area: 86%
-[11:21:39] [Server thread/INFO]: Preparing start region for level 1 (Seed: -2115237618971391858)
-[11:21:40] [Server thread/INFO]: Preparing spawn area: 21%
-[11:21:41] [Server thread/INFO]: Preparing start region for level 2 (Seed: -2115237618971391858)
-[11:21:42] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
-[11:21:42] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+[13:55:15] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[13:55:15] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[13:55:16] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[13:55:16] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[13:55:16] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2205ms)
+[13:55:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:55:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:55:16] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[13:55:16] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[13:55:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:55:16] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[13:55:17] [Server thread/INFO]: Preparing level "world"
+[13:55:17] [Server thread/INFO]: -------- World Settings For [world] --------
+[13:55:17] [Server thread/INFO]: Anti X-Ray: true
+[13:55:17] [Server thread/INFO]: 	Engine Mode: 1
+[13:55:17] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[13:55:17] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[13:55:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:55:17] [Server thread/INFO]: Mob Spawn Range: 4
+[13:55:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:55:17] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:55:17] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:55:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:55:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:55:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:55:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:55:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:55:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[13:55:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:55:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[13:55:17] [Server thread/INFO]: Random Lighting Updates: false
+[13:55:17] [Server thread/INFO]: Structure Info Saving: true
+[13:55:17] [Server thread/INFO]: Sending up to 10 chunks per packet
+[13:55:17] [Server thread/INFO]: Max Entity Collisions: 8
+[13:55:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[13:55:17] [Server thread/INFO]: Max TNT Explosions: 100
+[13:55:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:55:17] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:55:17] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:55:17] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:55:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:55:17] [Server thread/INFO]: View Distance: 4
+[13:55:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:55:17] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[13:55:17] [Server thread/INFO]: Clear tick list: false
+[13:55:17] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:55:17] [Server thread/INFO]: -------- World Settings For [world] --------
+[13:55:17] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[13:55:17] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[13:55:17] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[13:55:17] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[13:55:17] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[13:55:17] [Server thread/INFO]: Water over lava flow speed: 5
+[13:55:17] [Server thread/INFO]: Fix TNT cannons: false
+[13:55:17] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[13:55:17] [Server thread/INFO]: Keep spawn chunk loaded: true
+[13:55:17] [Server thread/INFO]: World async lighting: false
+[13:55:17] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[13:55:17] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[13:55:17] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[13:55:17] [Server thread/INFO]: Anti X-Ray: true
+[13:55:17] [Server thread/INFO]: 	Engine Mode: 1
+[13:55:17] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[13:55:17] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[13:55:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:55:17] [Server thread/INFO]: Mob Spawn Range: 4
+[13:55:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:55:17] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:55:17] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:55:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:55:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:55:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:55:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:55:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:55:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[13:55:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:55:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[13:55:17] [Server thread/INFO]: Random Lighting Updates: false
+[13:55:17] [Server thread/INFO]: Structure Info Saving: true
+[13:55:17] [Server thread/INFO]: Sending up to 10 chunks per packet
+[13:55:17] [Server thread/INFO]: Max Entity Collisions: 8
+[13:55:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[13:55:17] [Server thread/INFO]: Max TNT Explosions: 100
+[13:55:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:55:17] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:55:17] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:55:17] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:55:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:55:17] [Server thread/INFO]: View Distance: 4
+[13:55:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:55:17] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[13:55:17] [Server thread/INFO]: Clear tick list: false
+[13:55:17] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:55:17] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[13:55:17] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[13:55:17] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[13:55:17] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[13:55:17] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[13:55:17] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[13:55:17] [Server thread/INFO]: Water over lava flow speed: 5
+[13:55:17] [Server thread/INFO]: Fix TNT cannons: false
+[13:55:17] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[13:55:17] [Server thread/INFO]: Keep spawn chunk loaded: true
+[13:55:17] [Server thread/INFO]: World async lighting: false
+[13:55:17] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[13:55:17] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[13:55:17] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[13:55:17] [Server thread/INFO]: Anti X-Ray: true
+[13:55:17] [Server thread/INFO]: 	Engine Mode: 1
+[13:55:17] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[13:55:17] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[13:55:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:55:17] [Server thread/INFO]: Mob Spawn Range: 4
+[13:55:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:55:17] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:55:17] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:55:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:55:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:55:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:55:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:55:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:55:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[13:55:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:55:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[13:55:17] [Server thread/INFO]: Random Lighting Updates: false
+[13:55:17] [Server thread/INFO]: Structure Info Saving: true
+[13:55:17] [Server thread/INFO]: Sending up to 10 chunks per packet
+[13:55:17] [Server thread/INFO]: Max Entity Collisions: 8
+[13:55:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[13:55:17] [Server thread/INFO]: Max TNT Explosions: 100
+[13:55:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:55:17] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:55:17] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:55:17] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:55:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:55:17] [Server thread/INFO]: View Distance: 4
+[13:55:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:55:17] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[13:55:17] [Server thread/INFO]: Clear tick list: false
+[13:55:17] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:55:17] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[13:55:17] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[13:55:17] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[13:55:17] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[13:55:17] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[13:55:17] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[13:55:17] [Server thread/INFO]: Water over lava flow speed: 5
+[13:55:17] [Server thread/INFO]: Fix TNT cannons: false
+[13:55:17] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[13:55:17] [Server thread/INFO]: Keep spawn chunk loaded: true
+[13:55:17] [Server thread/INFO]: World async lighting: false
+[13:55:17] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[13:55:17] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[13:55:17] [Server thread/INFO]: Preparing start region for level 0 (Seed: -2115237618971391858)
+[13:55:18] [Server thread/INFO]: Preparing spawn area: 50%
+[13:55:18] [Server thread/INFO]: Preparing start region for level 1 (Seed: -2115237618971391858)
+[13:55:19] [Server thread/INFO]: Preparing start region for level 2 (Seed: -2115237618971391858)
+[13:55:19] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[13:55:19] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
 
-[11:21:42] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+[13:55:19] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
 
-[11:21:42] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[11:21:42] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[11:21:42] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[11:21:42] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[11:21:42] [Server thread/INFO]: [PluginConstructorAPI] Enabling PluginConstructorAPI v1.0.50
-[11:21:42] [Server thread/INFO]: [SeePlayerInventory] Enabling SeePlayerInventory v1.9
-[11:21:42] [Server thread/INFO]: [36m[SeePlayerInventory] [32mSeePlayerInventory Enabled.[0m
-[11:21:42] [Server thread/INFO]: [36m[SeePlayerInventory] [32mPlugin by [33m[peti446][0m
-[11:21:42] [Server thread/INFO]: [36m[SeePlayerInventory] [32mVersion: [33m1.9[0m
-[11:21:42] [Server thread/INFO]: [36m[SeePlayerInventory] [32mChecking for updates.............[0m
-[11:21:42] [Server thread/INFO]: [36m[SeePlayerInventory] [32mChecking for updates................[0m
-[11:21:42] [Server thread/WARN]: [36m[SeePlayerInventory] [31mThere is a new version available![0m
-[11:21:42] [Server thread/WARN]: [36m[SeePlayerInventory] [31mYour can get it from: [34mhttps://files.forgecdn.net/files/3187/924/SeePlayerInventory-2.7.2.jar[0m
-[11:21:42] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[11:21:42] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[11:21:42] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[11:21:43] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[11:21:43] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[11:21:43] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.59
-[11:21:43] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
-[11:21:43] [Server thread/INFO]: [GrimAC] Registering packets...
-[11:21:43] [Server thread/INFO]: [GrimAC] Registering an outgoing plugin channel...
-[11:21:43] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
-[11:21:43] [Server thread/INFO]: [LandClaiming] Enabling LandClaiming v1.4.11
-[11:21:43] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[11:21:43] [Server thread/INFO]: [ClearLag] Using version-adapter: LegacyVersionAdapter
-[11:21:43] [Server thread/INFO]: [ClearLag] Loading modules...
-[11:21:43] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[11:21:43] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[11:21:43] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[11:21:43] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[11:21:43] [Thread-9/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.8]...
-[11:21:43] [Server thread/INFO]: [CS-CoreLib] Enabling CS-CoreLib v1.6.2
-[11:21:43] [Thread-9/INFO]: [ClearLag] No updates found!
-[11:21:43] [Server thread/INFO]: [SuperVanish] Enabling SuperVanish v6.2.18
-[11:21:43] [Server thread/INFO]: [SuperVanish] Please install ProtocolLib to be able to use all SuperVanish features: https://www.spigotmc.org/resources/protocollib.1997/
-[11:21:43] [Server thread/INFO]: [ChatColor] Enabling ChatColor v1.8
-[11:21:43] [Server thread/INFO]: [0;35;22m[[0;33;22mChat[0;32;1mC[0;36;1mo[0;31;1ml[0;35;1mo[0;33;1mr[0;35;22m] [0;36;1mThank you for using [0;33;22mChat[0;32;1mC[0;36;1mo[0;31;1ml[0;35;1mo[0;33;1mr [0;36;1mby [0;31;1mSulphate![m
+[13:55:20] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[13:55:20] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[13:55:20] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[13:55:20] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[13:55:20] [Server thread/INFO]: [PluginConstructorAPI] Enabling PluginConstructorAPI v1.0.50
+[13:55:20] [Server thread/INFO]: [SeePlayerInventory] Enabling SeePlayerInventory v1.9
+[13:55:20] [Server thread/INFO]: [36m[SeePlayerInventory] [32mSeePlayerInventory Enabled.[0m
+[13:55:20] [Server thread/INFO]: [36m[SeePlayerInventory] [32mPlugin by [33m[peti446][0m
+[13:55:20] [Server thread/INFO]: [36m[SeePlayerInventory] [32mVersion: [33m1.9[0m
+[13:55:20] [Server thread/INFO]: [36m[SeePlayerInventory] [32mChecking for updates.............[0m
+[13:55:20] [Server thread/INFO]: [36m[SeePlayerInventory] [32mChecking for updates................[0m
+[13:55:20] [Server thread/WARN]: [36m[SeePlayerInventory] [31mThere is a new version available![0m
+[13:55:20] [Server thread/WARN]: [36m[SeePlayerInventory] [31mYour can get it from: [34mhttps://files.forgecdn.net/files/3187/924/SeePlayerInventory-2.7.2.jar[0m
+[13:55:20] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[13:55:20] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[13:55:20] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[13:55:20] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[13:55:20] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[13:55:21] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.59
+[13:55:21] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
+[13:55:21] [Server thread/INFO]: [GrimAC] Registering packets...
+[13:55:21] [Server thread/INFO]: [GrimAC] Registering an outgoing plugin channel...
+[13:55:21] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
+[13:55:21] [Server thread/INFO]: [LandClaiming] Enabling LandClaiming v1.4.11
+[13:55:21] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[13:55:21] [Server thread/INFO]: [ClearLag] Using version-adapter: LegacyVersionAdapter
+[13:55:21] [Server thread/INFO]: [ClearLag] Loading modules...
+[13:55:21] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[13:55:21] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[13:55:21] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[13:55:21] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[13:55:21] [Thread-9/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.8]...
+[13:55:21] [Server thread/INFO]: [CS-CoreLib] Enabling CS-CoreLib v1.6.2
+[13:55:21] [Thread-9/INFO]: [ClearLag] No updates found!
+[13:55:21] [Server thread/INFO]: [SuperVanish] Enabling SuperVanish v6.2.18
+[13:55:21] [Server thread/INFO]: [SuperVanish] Please install ProtocolLib to be able to use all SuperVanish features: https://www.spigotmc.org/resources/protocollib.1997/
+[13:55:21] [Server thread/INFO]: [ChatColor] Enabling ChatColor v1.8
+[13:55:21] [Server thread/INFO]: [0;35;22m[[0;33;22mChat[0;32;1mC[0;36;1mo[0;31;1ml[0;35;1mo[0;33;1mr[0;35;22m] [0;36;1mThank you for using [0;33;22mChat[0;32;1mC[0;36;1mo[0;31;1ml[0;35;1mo[0;33;1mr [0;36;1mby [0;31;1mSulphate![m
 
-[11:21:43] [Server thread/INFO]: [0;35;22m[[0;33;22mChat[0;32;1mC[0;36;1mo[0;31;1ml[0;35;1mo[0;33;1mr[0;35;22m] [0;33;1m>> [0;36;1mThe current version is: [0;35;1m1.8 - Modifier Perms Update![m
+[13:55:21] [Server thread/INFO]: [0;35;22m[[0;33;22mChat[0;32;1mC[0;36;1mo[0;31;1ml[0;35;1mo[0;33;1mr[0;35;22m] [0;33;1m>> [0;36;1mThe current version is: [0;35;1m1.8 - Modifier Perms Update![m
 
-[11:21:43] [Server thread/INFO]: [0;35;22m[[0;33;22mChat[0;32;1mC[0;36;1mo[0;31;1ml[0;35;1mo[0;33;1mr[0;35;22m] [0;33;1m>> [0;33;22mChat[0;32;1mC[0;36;1mo[0;31;1ml[0;35;1mo[0;33;1mr [0;36;1mhas been [0;32;1menabled[0;36;1m![m
+[13:55:21] [Server thread/INFO]: [0;35;22m[[0;33;22mChat[0;32;1mC[0;36;1mo[0;31;1ml[0;35;1mo[0;33;1mr[0;35;22m] [0;33;1m>> [0;33;22mChat[0;32;1mC[0;36;1mo[0;31;1ml[0;35;1mo[0;33;1mr [0;36;1mhas been [0;32;1menabled[0;36;1m![m
 
-[11:21:43] [Server thread/INFO]: [Slimefun] Enabling Slimefun vv4.1.15
-[11:21:43] [Server thread/WARN]: ### Slimefun failed to load!
+[13:55:21] [Server thread/INFO]: [LPC] Enabling LPC v3.6.0
+[13:55:21] [Server thread/INFO]: [Slimefun] Enabling Slimefun vv4.1.15
+[13:55:21] [Server thread/WARN]: ### Slimefun failed to load!
 
-[11:21:43] [Server thread/WARN]: ###
+[13:55:21] [Server thread/WARN]: ###
 
-[11:21:43] [Server thread/WARN]: ### You are using the wrong Version of Minecraft!!!
+[13:55:21] [Server thread/WARN]: ### You are using the wrong Version of Minecraft!!!
 
-[11:21:43] [Server thread/WARN]: ###
+[13:55:21] [Server thread/WARN]: ###
 
-[11:21:43] [Server thread/WARN]: ### You are using Minecraft v1_8_R3
+[13:55:21] [Server thread/WARN]: ### You are using Minecraft v1_8_R3
 
-[11:21:43] [Server thread/WARN]: ### but Slimefun vv4.1.15 requires you to be using
+[13:55:21] [Server thread/WARN]: ### but Slimefun vv4.1.15 requires you to be using
 
-[11:21:43] [Server thread/WARN]: ### Minecraft 1.9.X, 1.10.X, 1.11.X or 1.12.X
+[13:55:21] [Server thread/WARN]: ### Minecraft 1.9.X, 1.10.X, 1.11.X or 1.12.X
 
-[11:21:43] [Server thread/WARN]: ###
+[13:55:21] [Server thread/WARN]: ###
 
-[11:21:43] [Server thread/WARN]: ### Please use an older Version of Slimefun and disable auto-updating
+[13:55:21] [Server thread/WARN]: ### Please use an older Version of Slimefun and disable auto-updating
 
-[11:21:43] [Server thread/WARN]: ### or consider updating your Server Software.
+[13:55:21] [Server thread/WARN]: ### or consider updating your Server Software.
 
-[11:21:43] [Server thread/INFO]: [Slimefun] Disabling Slimefun vv4.1.15
-[11:21:43] [Server thread/ERROR]: Error occurred while disabling Slimefun vv4.1.15 (Is it up to date?)
+[13:55:21] [Server thread/INFO]: [Slimefun] Disabling Slimefun vv4.1.15
+[13:55:21] [Server thread/ERROR]: Error occurred while disabling Slimefun vv4.1.15 (Is it up to date?)
 java.lang.NullPointerException: Cannot assign field "HALTED" because "me.mrCookieSlime.Slimefun.SlimefunStartup.ticker" is null
 	at me.mrCookieSlime.Slimefun.SlimefunStartup.onDisable(SlimefunStartup.java:404) ~[?:?]
 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:323) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -305,1084 +304,119 @@ java.lang.NullPointerException: Cannot assign field "HALTED" because "me.mrCooki
 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[11:21:43] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[11:21:43] [Server thread/INFO]: Done (7.926s)! For help, type "help" or "?"
-[11:21:43] [Server thread/INFO]: Timings Reset
-[11:21:43] [Server thread/INFO]: [CS-CoreLib2 - Protection] Loading Protection Modules...
-[11:21:43] [Server thread/INFO]: [CS-CoreLib2 - Protection] This may happen more than once.
-[11:21:43] [Craft Scheduler Thread - 2/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
-
-[11:21:43] [Craft Scheduler Thread - 2/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
-
-[11:21:43] [Craft Scheduler Thread - 2/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
-
-[11:21:43] [Craft Scheduler Thread - 3/INFO]: [0;32;1mFound a new version of [0;33;22mPluginConstructorAPI: [0;37;1mv1.1.53[0;35;1m downloading now!![m
-
-[11:21:43] [Thread-10/INFO]: [CS-CoreLib - Updater] CS-CoreLib is up to date!
-
-[11:23:42] [Thread-11/INFO]: UUID of player Invincible_Atlas is f8d2b7df-92b8-33a1-96fe-d128da3049e3
-[11:23:42] [Server thread/INFO]: Invincible_Atlas[/[0:0:0:0:0:0:0:1]:51556] logged in with entity id 83 at ([world]374.84397433702696, 67.32058111242128, 269.42972832473885)
-[11:24:13] [Server thread/INFO]: Invincible_Atlas lost connection: Login timed out!
-[11:24:13] [Server thread/INFO]: Invincible_Atlas left the game.
-[11:24:13] [Server thread/WARN]: handleDisconnection() called twice
-[11:28:10] [Thread-13/INFO]: UUID of player Invincible_Atlas is f8d2b7df-92b8-33a1-96fe-d128da3049e3
-[11:28:10] [Server thread/INFO]: Invincible_Atlas[/[0:0:0:0:0:0:0:1]:38922] logged in with entity id 189 at ([world]374.84397433702696, 67.32058121242127, 269.42972832473885)
-[11:28:55] [Server thread/INFO]: [@: Set Invincible_Atlas's spawn point to (356, 70, 2672)]
-[11:28:56] [Server thread/INFO]: [@: Set Invincible_Atlas's spawn point to (356, 70, 2672)]
-[11:29:15] [Server thread/INFO]: Invincible_Atlas issued server command: /gamemode survival
-[11:29:15] [Server thread/INFO]: [Invincible_Atlas: Set own game mode to Survival Mode]
-[11:29:53] [Server thread/INFO]: Invincible_Atlas has just earned the achievement [Benchmarking]
-[11:30:05] [Server thread/INFO]: Invincible_Atlas has just earned the achievement [Time to Mine!]
-[11:30:17] [Server thread/INFO]: Invincible_Atlas has just earned the achievement [Time to Strike!]
-[11:30:37] [Server thread/INFO]: Invincible_Atlas issued server command: /effect @p clear
-[11:30:37] [Server thread/INFO]: [Invincible_Atlas: Took all effects from Invincible_Atlas]
-[11:30:47] [Server thread/INFO]: Invincible_Atlas issued server command: /give @p minecraft:stone_axe
-[11:30:47] [Server thread/INFO]: [Invincible_Atlas: Given [Stone Axe] * 1 to Invincible_Atlas]
-[11:31:19] [Server thread/INFO]: Invincible_Atlas issued server command: /gamerule keepInventory true
-[11:31:19] [Server thread/INFO]: [Invincible_Atlas: Game rule has been updated]
-[11:32:12] [Server thread/INFO]: Invincible_Atlas issued server command: /give @p minecraft:oak_door
-[11:32:12] [Server thread/INFO]: [Invincible_Atlas: There is no such item with name minecraft:oak_door]
-[11:32:17] [Server thread/INFO]: Invincible_Atlas was killed by Guardian using magic
-[11:32:37] [Server thread/INFO]: Invincible_Atlas issued server command: /gamemode creative
-[11:32:37] [Server thread/INFO]: [Invincible_Atlas: Set own game mode to Creative Mode]
-[11:33:21] [Server thread/INFO]: Invincible_Atlas issued server command: /tp @p 300 ~ 260
-[11:33:21] [Server thread/INFO]: [Invincible_Atlas: Teleported Invincible_Atlas to 300.5, 76.42480574839574, 260.5]
-[11:33:33] [Server thread/INFO]: Invincible_Atlas issued server command: /gamemode survival
-[11:33:33] [Server thread/INFO]: [Invincible_Atlas: Set own game mode to Survival Mode]
-[11:34:20] [Server thread/INFO]: Invincible_Atlas issued server command: /effect clear @p
-[11:34:20] [Server thread/INFO]: [Invincible_Atlas: The entity UUID provided is in an invalid format]
-[11:34:26] [Server thread/INFO]: Invincible_Atlas issued server command: /effect @p clear
-[11:34:26] [Server thread/INFO]: [Invincible_Atlas: Took all effects from Invincible_Atlas]
-[11:35:10] [Server thread/INFO]: Invincible_Atlas has just earned the achievement [Getting an Upgrade]
-[11:40:11] [Server thread/INFO]: Invincible_Atlas lost connection: Disconnected
-[11:40:11] [Server thread/INFO]: Invincible_Atlas left the game.
-[11:42:05] [Thread-14/INFO]: UUID of player Invincible_Atlas is f8d2b7df-92b8-33a1-96fe-d128da3049e3
-[11:42:05] [Server thread/INFO]: Invincible_Atlas[/[0:0:0:0:0:0:0:1]:51088] logged in with entity id 2034 at ([world]386.30000001192093, 64.0, 314.529044701986)
-[11:43:50] [Server thread/INFO]: Invincible_Atlas has just earned the achievement [Monster Hunter]
-[11:48:03] [Server thread/INFO]: Invincible_Atlas starved to death
-[11:48:29] [Server thread/INFO]: Invincible_Atlas has just earned the achievement [Hot Topic]
-[11:48:36] [Server thread/INFO]: Invincible_Atlas lost connection: Disconnected
-[11:48:36] [Server thread/INFO]: Invincible_Atlas left the game.
-[11:57:19] [Thread-16/INFO]: UUID of player BopMooCow23 is 48dc3f69-52c6-36c0-bf9a-4544749d1a3d
-[11:57:20] [Server thread/INFO]: BopMooCow23[/[0:0:0:0:0:0:0:1]:37170] logged in with entity id 2555 at ([world]356.5, 68.0, 263.5)
-[11:57:31] [Thread-17/INFO]: UUID of player Invincible_Atlas is f8d2b7df-92b8-33a1-96fe-d128da3049e3
-[11:57:32] [Server thread/INFO]: Invincible_Atlas[/[0:0:0:0:0:0:0:1]:37882] logged in with entity id 2559 at ([world]366.30000001192093, 63.0, 320.25669820352005)
-[11:57:40] [Async Chat Thread - #0/INFO]: <BopMooCow23> [0;37;1mhi[m
-
-[11:58:12] [Server thread/INFO]: BopMooCow23 was slain by Zombie
-[11:58:16] [Async Chat Thread - #0/INFO]: <Invincible_Atlas> [0;37;1mhi[m
-
-[11:58:18] [Server thread/INFO]: BopMooCow23 lost connection: Disconnected
-[11:58:18] [Server thread/INFO]: BopMooCow23 left the game.
-[11:59:15] [Server thread/INFO]: Invincible_Atlas issued server command: /gamerule doFireTick false
-[11:59:15] [Server thread/INFO]: [Invincible_Atlas: Game rule has been updated]
-[12:00:24] [Server thread/INFO]: Invincible_Atlas issued server command: /lac update
-[12:00:24] [Craft Scheduler Thread - 13/INFO]: [LoginSecurity] Downloading file LoginSecurity-3.2.0-Bukkit (1).jar...
-[12:00:25] [Craft Scheduler Thread - 13/INFO]: [LoginSecurity] Download complete!
-[12:04:05] [Thread-18/INFO]: UUID of player BopMooCow23 is 48dc3f69-52c6-36c0-bf9a-4544749d1a3d
-[12:04:05] [Server thread/INFO]: BopMooCow23[/[0:0:0:0:0:0:0:1]:40644] logged in with entity id 3107 at ([world]365.30000001192093, 69.0, 270.7543365558923)
-[12:04:16] [Server thread/INFO]: BopMooCow23 issued server command: /l Banana123
-[12:04:40] [Async Chat Thread - #1/INFO]: <BopMooCow23> [0;37;1mdude[m
-
-[12:04:50] [Async Chat Thread - #1/INFO]: <BopMooCow23> [0;37;1mwhy it spamming this block is claimed[m
-
-[12:04:50] [Async Chat Thread - #1/INFO]: <Invincible_Atlas> [0;37;1mye?[m
-
-[12:05:06] [Async Chat Thread - #1/INFO]: <Invincible_Atlas> [0;37;1mur trying to break a claimed block, duh[m
-
-[12:05:08] [Async Chat Thread - #1/INFO]: <BopMooCow23> [0;37;1malso why did u dox urself[m
-
-[12:05:13] [Async Chat Thread - #1/INFO]: <BopMooCow23> [0;37;1mi was standing still[m
-
-[12:05:19] [Async Chat Thread - #1/INFO]: <Invincible_Atlas> [0;37;1mhuh idk[m
-
-[12:05:27] [Async Chat Thread - #1/INFO]: <BopMooCow23> [0;37;1mhow do i leave this[m
-
-[12:05:34] [Async Chat Thread - #1/INFO]: <Invincible_Atlas> [0;37;1mleave what?[m
-
-[12:05:38] [Async Chat Thread - #1/INFO]: <BopMooCow23> [0;37;1mspawn[m
-
-[12:05:44] [Async Chat Thread - #1/INFO]: <BopMooCow23> [0;37;1mnvm[m
-
-[12:05:47] [Async Chat Thread - #1/INFO]: <Invincible_Atlas> [0;37;1m.[m
-
-[12:06:00] [Async Chat Thread - #1/INFO]: <BopMooCow23> [0;37;1mthere are like barriers everywhere[m
-
-[12:06:04] [Async Chat Thread - #1/INFO]: <Invincible_Atlas> [0;37;1mye[m
-
-[12:06:13] [Async Chat Thread - #1/INFO]: <BopMooCow23> [0;37;1mbonk[m
-
-[12:06:51] [Server thread/INFO]: BopMooCow23 issued server command: /sf guide
-[12:06:54] [Server thread/INFO]: BopMooCow23 issued server command: /help
-[12:06:58] [Server thread/INFO]: BopMooCow23 issued server command: /help 2
-[12:07:01] [Server thread/INFO]: BopMooCow23 issued server command: /help 3
-[12:07:12] [Async Chat Thread - #1/INFO]: <Invincible_Atlas> [0;37;1mOUT[m
-
-[12:07:16] [Async Chat Thread - #1/INFO]: <BopMooCow23> [0;37;1mstelf[m
-
-[12:07:21] [Async Chat Thread - #1/INFO]: <Invincible_Atlas> [0;37;1m?[m
-
-[12:07:27] [Async Chat Thread - #1/INFO]: <BopMooCow23> [0;37;1mi am stelfy[m
-
-[12:07:48] [Server thread/INFO]: Invincible_Atlas issued server command: /spi open inv BopMooCow23
-[12:08:00] [Async Chat Thread - #1/INFO]: <BopMooCow23> [0;37;1mwut[m
-
-[12:08:10] [Async Chat Thread - #1/INFO]: <BopMooCow23> [0;37;1m...[m
-
-[12:08:15] [Async Chat Thread - #1/INFO]: <Invincible_Atlas> [0;37;1mlol[m
-
-[12:08:18] [Async Chat Thread - #1/INFO]: <BopMooCow23> [0;37;1mstop going into my inv[m
-
-[12:08:24] [Server thread/INFO]: BopMooCow23 has just earned the achievement [Taking Inventory]
-[12:08:27] [Async Chat Thread - #1/INFO]: <Invincible_Atlas> [0;37;1mok[m
-
-[12:08:28] [Async Chat Thread - #1/INFO]: <BopMooCow23> [0;37;1m...[m
-
-[12:08:35] [Async Chat Thread - #1/INFO]: <BopMooCow23> [0;37;1mfree dirt nice[m
-
-[12:08:52] [Server thread/INFO]: BopMooCow23 issued server command: /rtp
-[12:08:54] [Server thread/INFO]: BopMooCow23 issued server command: /tpr
-[12:08:56] [Server thread/INFO]: BopMooCow23 issued server command: /wild
-[12:09:05] [Server thread/INFO]: BopMooCow23 has just earned the achievement [Getting Wood]
-[12:09:26] [Async Chat Thread - #1/INFO]: <BopMooCow23> [0;37;1mgtg[m
-
-[12:09:31] [Server thread/INFO]: BopMooCow23 lost connection: Disconnected
-[12:09:31] [Server thread/INFO]: BopMooCow23 left the game.
-[12:09:33] [Async Chat Thread - #1/INFO]: <Invincible_Atlas> [0;37;1mcu[m
-
-[12:15:23] [Thread-19/INFO]: UUID of player BopMooCow23 is 48dc3f69-52c6-36c0-bf9a-4544749d1a3d
-[12:15:23] [Server thread/INFO]: BopMooCow23[/[0:0:0:0:0:0:0:1]:46994] logged in with entity id 4192 at ([world]394.6080670675307, 63.0, 321.69999998807907)
-[12:15:28] [Async Chat Thread - #2/INFO]: <Invincible_Atlas> [0;37;1mello ello ello[m
-
-[12:15:34] [Async Chat Thread - #2/INFO]: <BopMooCow23> [0;37;1mello[m
-
-[12:15:37] [Async Chat Thread - #2/INFO]: <Invincible_Atlas> [0;37;1mhey, what do u think of the spawn i made?[m
-
-[12:15:45] [Async Chat Thread - #2/INFO]: <BopMooCow23> [0;37;1mits good[m
-
-[12:15:52] [Async Chat Thread - #2/INFO]: <Invincible_Atlas> [0;37;1m:)[m
-
-[12:16:15] [Async Chat Thread - #2/INFO]: <BopMooCow23> [0;37;1mhehe[m
-
-[12:16:31] [Server thread/INFO]: BopMooCow23 was slain by Invincible_Atlas
-[12:16:35] [Async Chat Thread - #2/INFO]: <BopMooCow23> [0;37;1mwhelp gtg[m
-
-[12:16:38] [Server thread/INFO]: BopMooCow23 lost connection: Disconnected
-[12:16:38] [Server thread/INFO]: BopMooCow23 left the game.
-[12:23:15] [Server thread/INFO]: Invincible_Atlas issued server command: /give @p 10
-[12:23:15] [Server thread/INFO]: [Invincible_Atlas: There is no such item with name minecraft:10]
-[12:23:19] [Server thread/INFO]: Invincible_Atlas issued server command: /give @p 10 10
-[12:23:19] [Server thread/INFO]: [Invincible_Atlas: There is no such item with name minecraft:10]
-[12:23:22] [Server thread/INFO]: Invincible_Atlas issued server command: /give @p
-[12:23:29] [Server thread/INFO]: Invincible_Atlas issued server command: /give @p minecraft:lava 1 10
-[12:23:29] [Server thread/INFO]: [Invincible_Atlas: There is no such item with name minecraft:lava]
-[12:23:33] [Server thread/INFO]: Invincible_Atlas issued server command: /give @p minecraft:lava 1
-[12:23:33] [Server thread/INFO]: [Invincible_Atlas: There is no such item with name minecraft:lava]
-[12:23:39] [Server thread/INFO]: Invincible_Atlas issued server command: /give @p minecraft:lava_block 1
-[12:23:39] [Server thread/INFO]: [Invincible_Atlas: There is no such item with name minecraft:lava_block]
-[12:23:44] [Server thread/INFO]: Invincible_Atlas issued server command: /give @p minecraft:10
-[12:23:44] [Server thread/INFO]: [Invincible_Atlas: There is no such item with name minecraft:10]
-[12:23:49] [Server thread/INFO]: Invincible_Atlas issued server command: /give @p 10 1 10
-[12:23:49] [Server thread/INFO]: [Invincible_Atlas: There is no such item with name minecraft:10]
-[12:23:56] [Server thread/INFO]: Invincible_Atlas issued server command: /give @p wool 1 14
-[12:23:56] [Server thread/INFO]: [Invincible_Atlas: Given [Red Wool] * 1 to Invincible_Atlas]
-[12:25:31] [Thread-20/INFO]: UUID of player BopMooCow23 is 48dc3f69-52c6-36c0-bf9a-4544749d1a3d
-[12:25:31] [Server thread/INFO]: BopMooCow23[/[0:0:0:0:0:0:0:1]:44578] logged in with entity id 4695 at ([world]356.5, 70.0, 272.5)
-[12:25:51] [Async Chat Thread - #3/INFO]: <BopMooCow23> [0;37;1misaac[m
-
-[12:26:02] [Server thread/INFO]: Invincible_Atlas has just earned the achievement [Cow Tipper]
-[12:26:10] [Async Chat Thread - #3/INFO]: <BopMooCow23> [0;37;1mit spams This block is claimed when u log in[m
-
-[12:26:21] [Async Chat Thread - #3/INFO]: <BopMooCow23> [0;37;1mwhy do i have mineing fatuige[m
-
-[12:26:30] [Async Chat Thread - #3/INFO]: <Invincible_Atlas> [0;37;1mtheres a sea temple[m
-
-[12:26:41] [Async Chat Thread - #3/INFO]: <BopMooCow23> [0;37;1mbruh[m
-
-[12:26:49] [Server thread/INFO]: Invincible_Atlas issued server command: /give @p minecraft:wheat
-[12:26:49] [Server thread/INFO]: [Invincible_Atlas: Given [Wheat] * 1 to Invincible_Atlas]
-[12:27:16] [Server thread/INFO]: BopMooCow23 fell from a high place
-[12:27:20] [Server thread/INFO]: BopMooCow23 issued server command: /back
-[12:27:25] [Server thread/INFO]: BopMooCow23 issued server command: /back
-[12:28:08] [Async Chat Thread - #4/INFO]: <BopMooCow23> [0;37;1mwut r u doing with da cow[m
-
-[12:28:15] [Async Chat Thread - #4/INFO]: <Invincible_Atlas> [0;37;1mkeeping it for milk[m
-
-[12:28:24] [Async Chat Thread - #4/INFO]: <BopMooCow23> [0;37;1mO NAH U RIZZING IT UP[m
-
-[12:28:34] [Async Chat Thread - #4/INFO]: <Invincible_Atlas> [0;37;1mMY PANTS R ON![m
-
-[12:28:38] [Async Chat Thread - #4/INFO]: <BopMooCow23> [0;37;1mlol[m
-
-[12:28:41] [Async Chat Thread - #4/INFO]: <BopMooCow23> [0;37;1mwith wheat[m
-
-[12:28:50] [Async Chat Thread - #4/INFO]: <BopMooCow23> [0;37;1muhhhh[m
-
-[12:28:58] [Async Chat Thread - #4/INFO]: <BopMooCow23> [0;37;1mwhat the seed fo rthis[m
-
-[12:29:01] [Server thread/INFO]: Invincible_Atlas issued server command: /seed
-[12:29:04] [Server thread/INFO]: BopMooCow23 issued server command: /bluemap
-[12:29:16] [Async Chat Thread - #4/INFO]: <Invincible_Atlas> [0;37;1m-2115237618971391858[m
-
-[12:29:30] [Async Chat Thread - #4/INFO]: <BopMooCow23> [0;37;1mok[m
-
-[12:29:39] [Server thread/INFO]: BopMooCow23 issued server command: /tpahere Invincible_Atlas
-[12:29:43] [Server thread/INFO]: Invincible_Atlas issued server command: /tpaccept
-[12:29:48] [Server thread/INFO]: Invincible_Atlas issued server command: /op
-[12:29:55] [Async Chat Thread - #4/INFO]: <BopMooCow23> [0;37;1mi think something is wrong[m
-
-[12:29:57] [Async Chat Thread - #4/INFO]: <Invincible_Atlas> [0;37;1mwhat?[m
-
-[12:30:00] [Async Chat Thread - #4/INFO]: <BopMooCow23> [0;37;1mlook[m
-
-[12:30:04] [Async Chat Thread - #4/INFO]: <Invincible_Atlas> [0;37;1mhehe[m
-
-[12:30:05] [Server thread/INFO]: Invincible_Atlas issued server command: /back
-[12:30:18] [Server thread/INFO]: Invincible_Atlas issued server command: /op invincible_atlas
-[12:30:18] [Server thread/INFO]: [Invincible_Atlas: Opped invincible_atlas]
-[12:30:26] [Server thread/INFO]: Invincible_Atlas has just earned the achievement [Acquire Hardware]
-[12:30:39] [Async Chat Thread - #4/INFO]: <BopMooCow23> [0;37;1mwhat did you do...[m
-
-[12:30:43] [Async Chat Thread - #4/INFO]: <Invincible_Atlas> [0;37;1mwdym[m
-
-[12:31:10] [Server thread/INFO]: Invincible_Atlas issued server command: /back
-[12:31:11] [Async Chat Thread - #4/INFO]: <BopMooCow23> [0;37;1mwhy i tlook like dat[m
-
-[12:31:15] [Async Chat Thread - #4/INFO]: <Invincible_Atlas> [0;37;1midk[m
-
-[12:31:18] [Server thread/INFO]: Invincible_Atlas issued server command: /back
-[12:31:32] [Server thread/INFO]: Invincible_Atlas issued server command: /effect @p minecraft:jump_boost 10 10
-[12:31:32] [Server thread/INFO]: [Invincible_Atlas: Given Jump Boost (ID 8) * 10 to Invincible_Atlas for 10 seconds]
-[12:31:47] [Server thread/INFO]: Invincible_Atlas issued server command: /sethome home
-[12:33:07] [Async Chat Thread - #5/INFO]: <BopMooCow23> [0;37;1mhmm[m
-
-[12:34:58] [Server thread/INFO]: BopMooCow23 has just earned the achievement [Benchmarking]
-[12:38:24] [Server thread/WARN]: BopMooCow23 moved too quickly! -42.89886403926357,0.7924959122429627,12.858305947306597 (-42.89886403926357, 0.7924959122429627, 12.858305947306597)
-[12:40:21] [Async Chat Thread - #6/INFO]: <BopMooCow23> [0;37;1mi need boat help[m
-
-[12:46:12] [Server thread/WARN]: BopMooCow23 moved too quickly! -0.9476602816314426,0.16590186070158097,12.570987427262594 (-0.9476602816314426, 0.16590186070158097, 12.570987427262594)
-[12:48:16] [Server thread/INFO]: BopMooCow23 issued server command: /seed
-[12:48:24] [Server thread/INFO]: BopMooCow23 issued server command: /lp
-[12:49:39] [Async Chat Thread - #7/INFO]: <BopMooCow23> [0;37;1mwhelp ima die[m
-
-[12:49:44] [Server thread/INFO]: BopMooCow23 fell from a high place
-[12:49:49] [Server thread/INFO]: BopMooCow23 issued server command: /back
-[12:49:51] [Server thread/INFO]: Invincible_Atlas issued server command: /tp BopMooCow23 @p
-[12:49:51] [Server thread/INFO]: [Invincible_Atlas: Teleported BopMooCow23 to Invincible_Atlas]
-[12:49:58] [Server thread/INFO]: BopMooCow23 issued server command: /back
-[12:50:01] [Server thread/INFO]: BopMooCow23 issued server command: /back
-[12:50:07] [Async Chat Thread - #7/INFO]: <Invincible_Atlas> [0;37;1mI have a bunny in my house[m
-
-[12:50:10] [Async Chat Thread - #7/INFO]: <BopMooCow23> [0;37;1mnice[m
-
-[12:50:31] [Async Chat Thread - #7/INFO]: <BopMooCow23> [0;37;1malso what the seed again[m
-
-[12:52:16] [Server thread/INFO]: BopMooCow23 issued server command: /plugins
-[12:52:31] [Server thread/INFO]: BopMooCow23 issued server command: /help slimefun
-[12:52:34] [Server thread/INFO]: BopMooCow23 issued server command: /slimefun
-[12:53:03] [Server thread/INFO]: BopMooCow23 has just earned the achievement [Time to Mine!]
-[12:53:13] [Server thread/INFO]: BopMooCow23 issued server command: /sethome
-[12:53:19] [Server thread/INFO]: BopMooCow23 issued server command: /sethome tv
-[12:53:21] [Server thread/INFO]: BopMooCow23 issued server command: /homes
-[12:53:39] [Server thread/INFO]: BopMooCow23 has just earned the achievement [Getting an Upgrade]
-[12:58:57] [Server thread/INFO]: BopMooCow23 fell from a high place
-[12:59:04] [Server thread/INFO]: BopMooCow23 issued server command: /back
-[12:59:15] [Async Chat Thread - #8/INFO]: <BopMooCow23> [0;37;1mdigging straight down is smart...[m
-
-[13:00:21] [Server thread/INFO]: BopMooCow23 burned to death
-[13:00:25] [Server thread/INFO]: BopMooCow23 issued server command: /back
-[13:00:37] [Async Chat Thread - #9/INFO]: <BopMooCow23> [0;37;1mok can u like kill the elder gardian[m
-
-[13:01:11] [Server thread/INFO]: BopMooCow23 issued server command: /plugins
-[13:01:21] [Server thread/INFO]: BopMooCow23 issued server command: /chatcolor
-[13:02:18] [Server thread/INFO]: Invincible_Atlas issued server command: /give @p still_lava
-[13:02:18] [Server thread/INFO]: [Invincible_Atlas: There is no such item with name minecraft:still_lava]
-[13:02:42] [Server thread/INFO]: Invincible_Atlas issued server command: /give @p minecraft:lava 1
-[13:02:42] [Server thread/INFO]: [Invincible_Atlas: There is no such item with name minecraft:lava]
-[13:03:29] [Server thread/INFO]: Invincible_Atlas issued server command: /fill ~ ~ ~ ~ ~ ~
-[13:03:48] [Server thread/INFO]: Invincible_Atlas issued server command: /fill ~ ~ ~ ~ ~ ~ lava 1
-[13:03:48] [Server thread/INFO]: [Invincible_Atlas: 1 blocks filled]
-[13:03:55] [Server thread/INFO]: Invincible_Atlas burned to death
-[13:03:58] [Async Chat Thread - #10/INFO]: <BopMooCow23> [0;37;1mrip[m
-
-[13:04:00] [Server thread/INFO]: Invincible_Atlas issued server command: /back
-[13:04:09] [Server thread/INFO]: Invincible_Atlas issued server command: /fill ~ ~ ~ ~ ~ ~ lava 10
-[13:04:09] [Server thread/INFO]: [Invincible_Atlas: 1 blocks filled]
-[13:04:26] [Server thread/INFO]: Invincible_Atlas issued server command: /fill ~ ~ ~ ~ ~ ~
-[13:04:33] [Server thread/INFO]: BopMooCow23 has just earned the achievement [Hot Topic]
-[13:04:42] [Server thread/INFO]: Invincible_Atlas issued server command: /fill ~ ~ ~ ~ ~ ~ lava 1 keep 1
-[13:04:42] [Server thread/INFO]: [Invincible_Atlas: 1 blocks filled]
-[13:04:43] [Server thread/INFO]: Invincible_Atlas tried to swim in lava
-[13:05:55] [Server thread/INFO]: BopMooCow23 has just earned the achievement [Acquire Hardware]
-[13:06:06] [Async Chat Thread - #11/INFO]: <BopMooCow23> [0;37;1missac[m
-
-[13:06:20] [Async Chat Thread - #11/INFO]: <BopMooCow23> [0;37;1mcan u op me so i can change my chat colro[m
-
-[13:09:02] [Server thread/INFO]: BopMooCow23 has just earned the achievement [Time to Strike!]
-[13:09:14] [Async Chat Thread - #12/INFO]: <BopMooCow23> [0;37;1mLOL[m
-
-[13:09:19] [Async Chat Thread - #12/INFO]: <BopMooCow23> [0;37;1mI DIDNT USE PLANKS[m
-
-[13:10:41] [Async Chat Thread - #13/INFO]: <BopMooCow23> [0;37;1manddddd[m
-
-[13:10:41] [Server thread/INFO]: BopMooCow23 has just earned the achievement [DIAMONDS!]
-[13:11:41] [Async Chat Thread - #14/INFO]: <BopMooCow23> [0;37;1misaac[m
-
-[13:11:49] [Async Chat Thread - #14/INFO]: <BopMooCow23> [0;37;1mwhy are there flowers underground[m
-
-[13:16:31] [Server thread/INFO]: BopMooCow23 issued server command: /sethome cv
-[13:18:41] [Server thread/INFO]: BopMooCow23 was killed by Witch using magic
-[13:18:45] [Server thread/INFO]: BopMooCow23 issued server command: /back
-[13:19:04] [Server thread/INFO]: BopMooCow23 has just earned the achievement [Monster Hunter]
-[13:19:36] [Server thread/INFO]: Invincible_Atlas lost connection: Timed out
-[13:19:36] [Server thread/INFO]: Invincible_Atlas left the game.
-[13:19:54] [Server thread/INFO]: BopMooCow23 issued server command: /tell BopMooCow23 hi
-[13:19:54] [Server thread/INFO]: [BopMooCow23: You can't send a private message to yourself!]
-[13:20:36] [Thread-23/INFO]: UUID of player Invincible_Atlas is f8d2b7df-92b8-33a1-96fe-d128da3049e3
-[13:20:36] [Server thread/INFO]: Invincible_Atlas[/[0:0:0:0:0:0:0:1]:33060] logged in with entity id 11808 at ([world]369.5496310016498, 64.0, 308.43904367998636)
-[13:23:06] [Async Chat Thread - #15/INFO]: <BopMooCow23> [0;37;1mhi[m
-
-[13:23:09] [Async Chat Thread - #15/INFO]: <Invincible_Atlas> [0;37;1mey[m
-
-[13:23:27] [Async Chat Thread - #15/INFO]: <BopMooCow23> [0;37;1mcan u change my chat color[m
-
-[13:23:42] [Server thread/INFO]: Invincible_Atlas issued server command: /chatcolor BopMooCow23
-[13:23:47] [Server thread/INFO]: Invincible_Atlas issued server command: /chatcolor BopMooCow23 ka
-[13:23:51] [Server thread/INFO]: Invincible_Atlas issued server command: /chatcolor BopMooCow23 k a
-[13:23:56] [Async Chat Thread - #15/INFO]: <Invincible_Atlas> [0;37;1mchat[m
-
-[13:24:04] [Async Chat Thread - #15/INFO]: <BopMooCow23> [0;37;1mok[m
-
-[13:24:06] [Server thread/INFO]: Invincible_Atlas issued server command: /chatcolor
-[13:24:18] [Server thread/INFO]: Invincible_Atlas issued server command: /chatcolor BopMooCow23 0 k
-[13:24:22] [Async Chat Thread - #15/INFO]: <Invincible_Atlas> [0;37;1mtry now[m
-
-[13:24:26] [Async Chat Thread - #15/INFO]: <BopMooCow23> [0;30;22m[5m-_-[m
-
-[13:24:29] [Async Chat Thread - #15/INFO]: <Invincible_Atlas> [0;37;1mhehe[m
-
-[13:24:34] [Async Chat Thread - #15/INFO]: <BopMooCow23> [0;30;22m[5mbruh[m
-
-[13:24:36] [Server thread/INFO]: Invincible_Atlas issued server command: /chatcolor BopMooCow23 2
-[13:24:38] [Async Chat Thread - #15/INFO]: <BopMooCow23> [0;32;22mok[m
-
-[13:24:45] [Server thread/INFO]: Invincible_Atlas issued server command: /chatcolor BopMooCow23 a
-[13:24:50] [Async Chat Thread - #15/INFO]: <BopMooCow23> [0;32;1mty[m
-
-[13:25:03] [Server thread/INFO]: Invincible_Atlas issued server command: /chatcolor Invincible_Atlas 4 l
-[13:25:10] [Server thread/INFO]: BopMooCow23 issued server command: /op
-[13:25:13] [Async Chat Thread - #15/INFO]: <BopMooCow23> [0;32;1mok[m
-
-[13:25:15] [Server thread/INFO]: BopMooCow23 issued server command: /lp
-[13:25:25] [Async Chat Thread - #15/INFO]: <BopMooCow23> [0;32;1mcan u do this command[m
-
-[13:25:46] [Async Chat Thread - #15/INFO]: <Invincible_Atlas> [0;31;22m[21mwhat command[m
-
-[13:25:48] [Async Chat Thread - #15/INFO]: <BopMooCow23> [0;32;1m./lp user BopMooCow23 permission set luckperms.* true[m
-
-[13:25:56] [Async Chat Thread - #15/INFO]: <BopMooCow23> [0;32;1mso i can modify luckperms[m
-
-[13:26:11] [Server thread/INFO]: Invincible_Atlas issued server command: /lp user BopMooCow23 permission set luckperms.* true
-[13:26:11] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mInvincible_Atlas[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mbopmoocow23[0;30;1m)[m
-
-[13:26:11] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set luckperms.* true[m
-
-[13:26:15] [Async Chat Thread - #15/INFO]: <Invincible_Atlas> [0;31;22m[21mdone[m
-
-[13:26:24] [Async Chat Thread - #15/INFO]: <BopMooCow23> [0;32;1mok danks[m
-
-[13:26:32] [Server thread/INFO]: Invincible_Atlas issued server command: /lp user Invincible_Atlas permission set luckperms.* true
-[13:26:32] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mInvincible_Atlas[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1minvincible_atlas[0;30;1m)[m
-
-[13:26:32] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set luckperms.* true[m
-
-[13:26:38] [Server thread/INFO]: BopMooCow23 issued server command: /lp creategroup reg
-[13:26:38] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mreg[0;30;1m)[m
-
-[13:26:38] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mcreate[m
-
-[13:26:48] [Server thread/INFO]: BopMooCow23 issued server command: /lp group reg editor
-[13:27:11] [Server thread/INFO]: BopMooCow23 issued server command: /plugins
-[13:27:16] [Server thread/INFO]: BopMooCow23 issued server command: /lp trusteditor 41fd-c59b
-[13:27:39] [Async Chat Thread - #16/INFO]: <Invincible_Atlas> [0;31;22m[21mhow to use luckperms?[m
-
-[13:27:54] [Async Chat Thread - #16/INFO]: <BopMooCow23> [0;32;1mlet me do it[m
-
-[13:27:58] [Async Chat Thread - #16/INFO]: <Invincible_Atlas> [0;31;22m[21mlike, how do i connect the web editor to the server[m
-
-[13:28:06] [Async Chat Thread - #16/INFO]: <BopMooCow23> [0;32;1moh[m
-
-[13:28:09] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mreg[0;30;1m)[m
-
-[13:28:09] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add chatcolor.use true[m
-
-[13:28:09] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mreg[0;30;1m)[m
-
-[13:28:09] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add chatcolor.colors.0 true[m
-
-[13:28:10] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mreg[0;30;1m)[m
-
-[13:28:10] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add chatcolor.change.modifiers true[m
-
-[13:28:10] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mreg[0;30;1m)[m
-
-[13:28:10] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add chatcolor.colors.4 true[m
-
-[13:28:10] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mreg[0;30;1m)[m
-
-[13:28:10] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add chatcolor.modifiers.k true[m
-
-[13:28:10] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mreg[0;30;1m)[m
-
-[13:28:10] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add chatcolor.colors true[m
-
-[13:28:10] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mreg[0;30;1m)[m
-
-[13:28:10] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add chatcolor.modifiers true[m
-
-[13:28:10] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mreg[0;30;1m)[m
-
-[13:28:10] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add chatcolor.change.self true[m
-
-[13:28:10] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mreg[0;30;1m)[m
-
-[13:28:10] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add chatcolor.modifiers.l true[m
-
-[13:28:10] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mreg[0;30;1m)[m
-
-[13:28:10] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add chatcolor.change true[m
-
-[13:28:10] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mreg[0;30;1m)[m
-
-[13:28:10] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add chatcolor.colors.2 true[m
-
-[13:28:10] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mreg[0;30;1m)[m
-
-[13:28:10] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add chatcolor.colors.a true[m
-
-[13:28:12] [Async Chat Thread - #16/INFO]: <Invincible_Atlas> [0;31;22m[21mI want to be able to[m
-
-[13:28:16] [Async Chat Thread - #16/INFO]: <BopMooCow23> [0;32;1msee[m
-
-[13:28:23] [Async Chat Thread - #16/INFO]: <BopMooCow23> [0;32;1mi made base gorup[m
-
-[13:28:31] [Server thread/INFO]: BopMooCow23 issued server command: /lp user BopMooCow23 group add reg
-[13:28:31] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mbopmoocow23[0;30;1m)[m
-
-[13:28:31] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent add reg[m
-
-[13:28:43] [Async Chat Thread - #16/INFO]: <BopMooCow23> [0;32;1mdo /lp creategroup [group name][m
-
-[13:28:58] [Server thread/INFO]: Invincible_Atlas issued server command: /lp creategroup mod
-[13:28:58] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mInvincible_Atlas[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mmod[0;30;1m)[m
-
-[13:28:58] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mcreate[m
-
-[13:29:06] [Async Chat Thread - #16/INFO]: <BopMooCow23> [0;32;1mthe /lp user [user] group add [group][m
-
-[13:29:13] [Async Chat Thread - #16/INFO]: <BopMooCow23> [0;32;1mto add someone to group[m
-
-[13:29:21] [Server thread/INFO]: BopMooCow23 issued server command: /lp user Invincible_Atlas group add reg
-[13:29:21] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1minvincible_atlas[0;30;1m)[m
-
-[13:29:21] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent add reg[m
-
-[13:29:25] [Server thread/INFO]: BopMooCow23 issued server command: /chatcolor
-[13:29:29] [Async Chat Thread - #16/INFO]: <Invincible_Atlas> [0;31;22m[21mhow do I edit the group?[m
-
-[13:29:46] [Async Chat Thread - #16/INFO]: <BopMooCow23> [0;32;1mdo /lp group [groupname] editor[m
-
-[13:30:02] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group mod editor
-[13:30:06] [Async Chat Thread - #16/INFO]: <Invincible_Atlas> [0;31;22m[21mthx[m
-
-[13:30:06] [Server thread/INFO]: BopMooCow23 issued server command: /lp creategroup file_management
-[13:30:06] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:30:06] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mcreate[m
-
-[13:30:15] [Server thread/INFO]: BopMooCow23 issued server command: /lp group file_management editor
-[13:30:28] [Async Chat Thread - #16/INFO]: <BopMooCow23> [0;32;1mthen u need to click apply[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.permission.unsettemp true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.listtracks true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.log.notify true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.info true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.parent true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.meta.info true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.parent.cleartrack true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.meta.removeprefix true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.sponge.parent.clear true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.meta.clear true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.clone true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.parent.set true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.setweight true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.meta.removesuffix true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.parent.addtemp true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.sponge.parent.add true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.log.grouphistory true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.info true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.rename true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.permission true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.permission.settemp true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.meta.settempprefix true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.meta.addtempsuffix true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.meta.set true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.sponge.parent.info true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.log true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.sponge true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.tree true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.listmembers true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.deletegroup true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.meta.settempsuffix true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.parent.remove true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.sponge.option.clear true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.trusteditor true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.sponge.parent true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.createtrack true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.showtracks true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.creategroup true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.permission.info true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.listgroups true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.parent.clear true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.sponge.option.unset true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.meta.addsuffix true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.meta.unsettemp true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.sync true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.parent.info true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.clear true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.deletetrack true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.export true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.meta.unset true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.applyedits true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.permission.check true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.log.search true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.translations true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.log.userhistory true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.meta.settemp true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.meta.addtempprefix true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.log.trackhistory true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.permission.set true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.meta.setsuffix true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.search true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.permission.unset true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.bulkupdate true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.meta.setprefix true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.editor true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.editor true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.sponge.option.set true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.permission.clear true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.meta.removetempsuffix true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.import true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.setdisplayname true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.meta true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.parent.add true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.sponge.option.info true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.parent.removetemp true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.meta.removetempprefix true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.reloadconfig true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.meta.addprefix true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.group.parent.settrack true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.log.recent true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms true[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:32:48] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add luckperms.sponge.option true[m
-
-[13:33:49] [Server thread/INFO]: BopMooCow23 issued server command: /lp group mod permission
-[13:34:07] [Server thread/INFO]: BopMooCow23 issued server command: /lp group mod meta setprefix Mod
-[13:34:07] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mmod[0;30;1m)[m
-
-[13:34:07] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta setprefix 1 Mod[m
-
-[13:34:29] [Server thread/INFO]: BopMooCow23 issued server command: /lp group file_management meta setprefix FileManager
-[13:34:29] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:34:29] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta setprefix 1 FileManager[m
-
-[13:34:31] [Async Chat Thread - #17/INFO]: <BopMooCow23> [0;32;1mok[m
-
-[13:34:35] [Async Chat Thread - #17/INFO]: <BopMooCow23> [0;32;1mhmm[m
-
-[13:34:41] [Server thread/INFO]: BopMooCow23 issued server command: /chatcolor BopMooCow23 u
-[13:35:11] [Server thread/INFO]: BopMooCow23 issued server command: /lp group file_management setdisplayname FilesManger
-[13:35:11] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:35:11] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1msetdisplayname FilesManger[m
-
-[13:35:13] [Async Chat Thread - #17/INFO]: <BopMooCow23> [0;32;1mok[m
-
-[13:35:16] [Async Chat Thread - #17/INFO]: <BopMooCow23> [0;32;1mcrap[m
-
-[13:35:48] [Server thread/INFO]: Invincible_Atlas issued server command: /lp applyedits MjgnfW89t8
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mInvincible_Atlas[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mmod[0;30;1m)[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add minecraft.command.kick true[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mInvincible_Atlas[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mmod[0;30;1m)[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add minecraft.command.banlist true[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mInvincible_Atlas[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mmod[0;30;1m)[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add minecraft.command.tp true[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mInvincible_Atlas[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mmod[0;30;1m)[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add minecraft.command.ban true[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mInvincible_Atlas[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mmod[0;30;1m)[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add minecraft.command.pardon true[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mInvincible_Atlas[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mmod[0;30;1m)[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add chatcolor true[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mInvincible_Atlas[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mmod[0;30;1m)[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add minecraft.command.teleport true[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mInvincible_Atlas[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mvip[0;30;1m)[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add chatcolor.change.modifiers true[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mInvincible_Atlas[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mvip[0;30;1m)[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add minecraft.command.tp true[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mInvincible_Atlas[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mvip[0;30;1m)[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add minecraft.command.effect true[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mInvincible_Atlas[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mvip[0;30;1m)[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add chatcolor.change.others true[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mInvincible_Atlas[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mvip[0;30;1m)[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add minecraft.command.playsound true[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mInvincible_Atlas[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mvip[0;30;1m)[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add chatcolor.colors true[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mInvincible_Atlas[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mvip[0;30;1m)[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add chatcolor.change true[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mInvincible_Atlas[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mvip[0;30;1m)[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add chatcolor.change.self true[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mInvincible_Atlas[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mvip[0;30;1m)[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add prefix.0.&4[vip] true[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mInvincible_Atlas[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mvip[0;30;1m)[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add chatcolor true[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mInvincible_Atlas[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mvip[0;30;1m)[m
-
-[13:35:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add weight.0 true[m
-
-[13:35:57] [Server thread/INFO]: Invincible_Atlas issued server command: /lp
-[13:36:04] [Server thread/INFO]: BopMooCow23 lost connection: Timed out
-[13:36:04] [Server thread/INFO]: BopMooCow23 left the game.
-[13:36:12] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group file_management editor
-[13:36:55] [Server thread/INFO]: Invincible_Atlas issued server command: /lp help
-[13:37:04] [Server thread/INFO]: Invincible_Atlas issued server command: /lp user Invincible_Atlas
-[13:37:07] [Server thread/INFO]: Invincible_Atlas issued server command: /lp user Invincible_Atlas info
-[13:37:18] [Server thread/INFO]: Invincible_Atlas issued server command: /lp
-[13:37:23] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group
-[13:37:29] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group list
-[13:37:35] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group info
-[13:37:52] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group mod editor
-[13:38:03] [Server thread/INFO]: Invincible_Atlas issued server command: /lp trusteditor fa84-39b8
-[13:38:50] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group mod meta addprefix &4[mod]
-[13:38:50] [Thread-26/INFO]: UUID of player BopMooCow23 is 48dc3f69-52c6-36c0-bf9a-4544749d1a3d
-[13:38:50] [Server thread/INFO]: BopMooCow23[/[0:0:0:0:0:0:0:1]:57046] logged in with entity id 13469 at ([world]1145.699999988079, 19.0, -665.6999999880791)
-[13:39:01] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group mod meta addprefix 0 &4[mod]
-[13:39:01] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mInvincible_Atlas[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mmod[0;30;1m)[m
-
-[13:39:01] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 0 &4[mod][m
-
-[13:39:10] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group
-[13:39:19] [Async Chat Thread - #18/INFO]: <BopMooCow23> [0;32;1mi got u isaac[m
-
-[13:40:03] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group mod
-[13:40:04] [Server thread/INFO]: BopMooCow23 issued server command: /lp group mod meta setprefix 100 "&4[Mod]"
-[13:40:04] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mmod[0;30;1m)[m
-
-[13:40:04] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta setprefix 100 &4[Mod][m
-
-[13:40:08] [Async Chat Thread - #18/INFO]: <BopMooCow23> [0;32;1mok now chat isaac[m
-
-[13:40:12] [Async Chat Thread - #18/INFO]: <Invincible_Atlas> [0;31;22m[21mhi[m
-
-[13:40:29] [Async Chat Thread - #18/INFO]: <Invincible_Atlas> [0;31;22m[21mhow do I add myself to a group?[m
-
-[13:40:34] [Server thread/INFO]: BopMooCow23 issued server command: /lp group mod meta setprefix 1 "&4[Mod]"
-[13:40:34] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mmod[0;30;1m)[m
-
-[13:40:34] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta setprefix 1 &4[Mod][m
-
-[13:40:36] [Async Chat Thread - #18/INFO]: <BopMooCow23> [0;32;1moh[m
-
-[13:40:44] [Server thread/INFO]: BopMooCow23 issued server command: /lp user Invincible_Atlas group add mod
-[13:40:44] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1minvincible_atlas[0;30;1m)[m
-
-[13:40:44] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent add mod[m
-
-[13:40:45] [Async Chat Thread - #18/INFO]: <Invincible_Atlas> [0;31;22m[21mhow do I see all the groups[m
-
-[13:40:49] [Async Chat Thread - #18/INFO]: <BopMooCow23> [0;32;1mi added u to mod[m
-
-[13:40:53] [Async Chat Thread - #18/INFO]: <Invincible_Atlas> [0;31;22m[21mok[m
-
-[13:40:58] [Server thread/INFO]: BopMooCow23 issued server command: /lp group mod meta setprefix 100 "&4[Mod]"
-[13:40:58] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mmod[0;30;1m)[m
-
-[13:40:58] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta setprefix 100 &4[Mod][m
-
-[13:41:01] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group
-[13:41:06] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group showtracks
-[13:41:09] [Async Chat Thread - #18/INFO]: <BopMooCow23> [0;32;1mdo u see prefix[m
-
-[13:41:13] [Async Chat Thread - #18/INFO]: <Invincible_Atlas> [0;31;22m[21mno[m
-
-[13:41:27] [Server thread/INFO]: BopMooCow23 issued server command: /lp group file_management meta setprefix 100 "&aFileManager"
-[13:41:27] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBopMooCow23[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfile_management[0;30;1m)[m
-
-[13:41:27] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta setprefix 100 &aFileManager[m
-
-[13:41:29] [Async Chat Thread - #18/INFO]: <BopMooCow23> [0;32;1mhuh[m
-
-[13:41:42] [Async Chat Thread - #18/INFO]: <BopMooCow23> [0;32;1mlemme do some recerch[m
-
-[13:41:43] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group admin editor
-[13:41:52] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group admin create
-[13:42:05] [Async Chat Thread - #18/INFO]: <Invincible_Atlas> [0;31;22m[21mhow do I create a group?[m
-
-[13:42:10] [Server thread/INFO]: Invincible_Atlas issued server command: /lp help
-[13:42:16] [Server thread/INFO]: Invincible_Atlas issued server command: /lp tree
-[13:42:23] [Async Chat Thread - #18/INFO]: <BopMooCow23> [0;32;1m./lp creategroup [groupname][m
-
-[13:42:51] [Server thread/INFO]: Invincible_Atlas issued server command: /lp creategroup admin
-[13:42:51] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mInvincible_Atlas[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-
-[13:42:51] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mcreate[m
-
-[13:42:56] [Server thread/INFO]: Invincible_Atlas issued server command: /lp listgroups
-[13:43:17] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group mod listmembers
-[13:43:36] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group admin editor
-[13:43:38] [Async Chat Thread - #19/INFO]: <BopMooCow23> [0;32;1mo wait for prefix we might need another plugin[m
-
-[13:44:10] [Async Chat Thread - #19/INFO]: <Invincible_Atlas> [0;31;22m[21mwhy?[m
-
-[13:44:41] [Server thread/INFO]: BopMooCow23 lost connection: Timed out
-[13:44:41] [Server thread/INFO]: BopMooCow23 left the game.
-[13:44:55] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mInvincible_Atlas[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-
-[13:44:55] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add * true[m
-
-[13:44:58] [Thread-27/INFO]: UUID of player BopMooCow23 is 48dc3f69-52c6-36c0-bf9a-4544749d1a3d
-[13:44:58] [Server thread/INFO]: BopMooCow23[/[0:0:0:0:0:0:0:1]:59100] logged in with entity id 14232 at ([world]1145.300000011921, 19.0, -665.3793714637792)
-[13:45:10] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group admin
-[13:45:13] [Server thread/INFO]: BopMooCow23 lost connection: Disconnected
-[13:45:13] [Server thread/INFO]: BopMooCow23 left the game.
-[13:45:19] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group admin meta addprefix
-[13:45:37] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group admin &4[Admin]
-[13:45:44] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group admin addprefix &4[Admin]
-[13:45:51] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group admin addprefix 2 &4[Admin]
-[13:46:00] [Thread-28/INFO]: UUID of player BopMooCow23 is 48dc3f69-52c6-36c0-bf9a-4544749d1a3d
-[13:46:00] [Server thread/INFO]: BopMooCow23[/[0:0:0:0:0:0:0:1]:48830] logged in with entity id 14440 at ([world]1145.300000011921, 19.0, -665.3793714637792)
-[13:46:15] [Server thread/INFO]: BopMooCow23 lost connection: Disconnected
-[13:46:15] [Server thread/INFO]: BopMooCow23 left the game.
-[13:46:20] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group admin meta addprefix 10 &4[Admin]
-[13:46:20] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mInvincible_Atlas[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-
-[13:46:20] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 10 &4[Admin][m
-
-[13:46:24] [Thread-29/INFO]: UUID of player BopMooCow23 is 48dc3f69-52c6-36c0-bf9a-4544749d1a3d
-[13:46:24] [Server thread/INFO]: BopMooCow23[/[0:0:0:0:0:0:0:1]:32794] logged in with entity id 14574 at ([world]1145.300000011921, 19.0, -665.3793714637792)
-[13:46:28] [Async Chat Thread - #20/INFO]: <Invincible_Atlas> [0;31;22m[21mteste[m
-
-[13:46:31] [Async Chat Thread - #20/INFO]: <Invincible_Atlas> [0;31;22m[21mtest[m
-
-[13:46:38] [Async Chat Thread - #20/INFO]: <BopMooCow23> [0;32;1mthe lag[m
-
-[13:47:13] [Server thread/INFO]: BopMooCow23 lost connection: Timed out
-[13:47:13] [Server thread/INFO]: BopMooCow23 left the game.
-[13:47:36] [Thread-30/INFO]: UUID of player BopMooCow23 is 48dc3f69-52c6-36c0-bf9a-4544749d1a3d
-[13:47:36] [Server thread/INFO]: BopMooCow23[/[0:0:0:0:0:0:0:1]:38036] logged in with entity id 14872 at ([world]1145.300000011921, 19.0, -665.3793714637792)
-[13:47:51] [Server thread/INFO]: BopMooCow23 lost connection: Disconnected
-[13:47:51] [Server thread/INFO]: BopMooCow23 left the game.
-[13:47:58] [Thread-31/INFO]: UUID of player BopMooCow23 is 48dc3f69-52c6-36c0-bf9a-4544749d1a3d
-[13:47:58] [Server thread/INFO]: BopMooCow23[/[0:0:0:0:0:0:0:1]:52290] logged in with entity id 15037 at ([world]1145.300000011921, 19.0, -665.3793714637792)
-[13:48:08] [Async Chat Thread - #21/INFO]: <BopMooCow23> [0;32;1madd LPC to server[m
-
-[13:48:14] [Async Chat Thread - #21/INFO]: <Invincible_Atlas> [0;31;22m[21mwhats that[m
-
-[13:48:17] [Async Chat Thread - #21/INFO]: <BopMooCow23> [0;32;1min folder[m
-
-[13:48:25] [Async Chat Thread - #21/INFO]: <Invincible_Atlas> [0;31;22m[21mwhat does it do[m
-
-[13:48:25] [Async Chat Thread - #21/INFO]: <BopMooCow23> [0;32;1mluckperms chat formatting[m
-
-[13:48:28] [Async Chat Thread - #21/INFO]: <Invincible_Atlas> [0;31;22m[21mok[m
-
-[13:48:31] [Server thread/INFO]: Invincible_Atlas lost connection: Disconnected
-[13:48:31] [Server thread/INFO]: Invincible_Atlas left the game.
-[13:48:32] [Async Chat Thread - #21/INFO]: <BopMooCow23> [0;32;1mlets u use prefix[m
-
-[13:48:35] [Server thread/INFO]: BopMooCow23 lost connection: Disconnected
-[13:48:35] [Server thread/INFO]: BopMooCow23 left the game.
-[13:52:14] [Thread-2/INFO]: Stopping server
+[13:55:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:55:21] [Server thread/INFO]: Done (4.597s)! For help, type "help" or "?"
+[13:55:21] [Server thread/INFO]: Timings Reset
+[13:55:21] [Server thread/INFO]: [CS-CoreLib2 - Protection] Loading Protection Modules...
+[13:55:21] [Server thread/INFO]: [CS-CoreLib2 - Protection] This may happen more than once.
+[13:55:21] [Thread-10/INFO]: [CS-CoreLib - Updater] CS-CoreLib is up to date!
+
+[13:55:21] [Craft Scheduler Thread - 2/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[13:55:21] [Craft Scheduler Thread - 2/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[13:55:21] [Craft Scheduler Thread - 2/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[13:55:21] [Craft Scheduler Thread - 3/INFO]: [0;32;1mFound a new version of [0;33;22mPluginConstructorAPI: [0;37;1mv1.1.53[0;35;1m downloading now!![m
+
+[13:55:26] [Thread-11/INFO]: UUID of player Invincible_Atlas is f8d2b7df-92b8-33a1-96fe-d128da3049e3
+[13:55:26] [Server thread/INFO]: Invincible_Atlas[/[0:0:0:0:0:0:0:1]:58510] logged in with entity id 90 at ([world]387.6326878066505, 65.0, 300.13546019292085)
+[13:55:42] [Async Chat Thread - #0/INFO]: [0;31;22m[Mod]Invincible_Atlas[m: [0;31;22m[21mtest[m
+
+[13:56:05] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group mod
+[13:56:11] [Server thread/INFO]: Invincible_Atlas was slain by Zombie
+[13:56:20] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group mod meta
+[13:56:30] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group mod
+[13:57:20] [Server thread/INFO]: Invincible_Atlas issued server command: /lp user
+[13:57:27] [Server thread/INFO]: Invincible_Atlas issued server command: /lp user Invincible_Atlas parent
+[13:57:34] [Server thread/INFO]: Invincible_Atlas issued server command: /lp user Invincible_Atlas parent add admin
+[13:57:34] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mInvincible_Atlas[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1minvincible_atlas[0;30;1m)[m
+
+[13:57:34] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent add admin[m
+
+[13:57:36] [Async Chat Thread - #1/INFO]: [0;31;22m[Mod]Invincible_Atlas[m: [0;31;22m[21mtest[m
+
+[13:57:49] [Server thread/INFO]: Invincible_Atlas issued server command: /lp user Invincible_Atlas parent remove mod
+[13:57:49] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mInvincible_Atlas[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1minvincible_atlas[0;30;1m)[m
+
+[13:57:49] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent remove mod[m
+
+[13:57:51] [Async Chat Thread - #1/INFO]: [0;31;22m[Admin]Invincible_Atlas[m: [0;31;22m[21mtest[m
+
+[13:58:24] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group admin editor
+[13:58:52] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mInvincible_Atlas[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
+
+[13:58:52] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add prefix.10.&4[Admin] &5 true[m
+
+[13:58:52] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mInvincible_Atlas[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
+
+[13:58:52] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove prefix.10.&4[Admin] true[m
+
+[13:58:58] [Async Chat Thread - #2/INFO]: [0;31;22m[Admin] [0;35;22mInvincible_Atlas[m: [0;31;22m[21mtest[m
+
+[13:59:19] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group mod editor
+[13:59:38] [Server thread/INFO]: Invincible_Atlas issued server command: /chatcolor Invincible_Atlas
+[13:59:55] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mInvincible_Atlas[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mmod[0;30;1m)[m
+
+[13:59:55] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add prefix.100.&4[Mod] &f true[m
+
+[13:59:55] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mInvincible_Atlas[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mmod[0;30;1m)[m
+
+[13:59:55] [luckperms-worker-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove prefix.100.&4[Mod] true[m
+
+[14:00:27] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group parent editor
+[14:00:32] [Server thread/INFO]: Invincible_Atlas issued server command: /lp listgroups
+[14:00:41] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group reg editor
+[14:01:18] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group .* editor
+[14:01:31] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group default
+[14:01:34] [Server thread/INFO]: Invincible_Atlas issued server command: /lp group default editor
+[14:01:34] [luckperms-command-executor/WARN]: [LuckPerms] Unable to establish socket connection
+me.lucko.luckperms.common.http.UnsuccessfulRequestException: Request was unsuccessful: 429 - 
+	at me.lucko.luckperms.common.http.AbstractHttpClient.makeHttpRequest(AbstractHttpClient.java:50) ~[?:?]
+	at me.lucko.luckperms.common.http.BytesocksClient.createSocket(BytesocksClient.java:67) ~[?:?]
+	at me.lucko.luckperms.common.webeditor.socket.WebEditorSocket.initialize(WebEditorSocket.java:88) ~[?:?]
+	at me.lucko.luckperms.common.webeditor.WebEditorSession.createSocket(WebEditorSession.java:94) ~[?:?]
+	at me.lucko.luckperms.common.webeditor.WebEditorSession.open(WebEditorSession.java:86) ~[?:?]
+	at me.lucko.luckperms.common.commands.generic.other.HolderEditor.execute(HolderEditor.java:87) ~[?:?]
+	at me.lucko.luckperms.common.commands.generic.other.HolderEditor.execute(HolderEditor.java:52) ~[?:?]
+	at me.lucko.luckperms.common.command.abstraction.ParentCommand.execute(ParentCommand.java:107) ~[?:?]
+	at me.lucko.luckperms.common.command.abstraction.ParentCommand.execute(ParentCommand.java:44) ~[?:?]
+	at me.lucko.luckperms.common.command.CommandManager.execute(CommandManager.java:279) ~[?:?]
+	at me.lucko.luckperms.common.command.CommandManager.lambda$executeCommand$1(CommandManager.java:183) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[14:05:15] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
+[14:05:51] [Server thread/INFO]: Invincible_Atlas was blown up by Creeper
+[14:06:49] [Server thread/INFO]: Invincible_Atlas issued server command: /give @p minecraft:w
+[14:06:49] [Server thread/INFO]: [Invincible_Atlas: There is no such item with name minecraft:w]
+[14:06:51] [Server thread/INFO]: Invincible_Atlas issued server command: /give @p minecraft:wheat
+[14:06:51] [Server thread/INFO]: [Invincible_Atlas: Given [Wheat] * 1 to Invincible_Atlas]
+[14:07:24] [Server thread/INFO]: Invincible_Atlas has just earned the achievement [Repopulation]
+[14:08:46] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
+[14:08:56] [Server thread/INFO]: Invincible_Atlas issued server command: /spi open
+[14:09:02] [Server thread/INFO]: Invincible_Atlas issued server command: /spi open ec Invincible_Atlas
+[14:09:04] [Server thread/INFO]: Invincible_Atlas issued server command: /spi open ec Invincible_Atlas
+[14:09:51] [Server thread/INFO]: Invincible_Atlas was shot by Skeleton
+[14:09:56] [Server thread/INFO]: Invincible_Atlas issued server command: /back'
+[14:10:00] [Server thread/INFO]: Invincible_Atlas issued server command: /back
+[14:12:27] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
+[14:13:55] [Server thread/INFO]: Invincible_Atlas issued server command: /sf guide
+[14:13:58] [Server thread/INFO]: Invincible_Atlas issued server command: /plugins
+[14:14:10] [Server thread/INFO]: Invincible_Atlas issued server command: /sv
+[14:14:12] [Server thread/INFO]: Invincible_Atlas issued server command: /sv
+[14:14:22] [Server thread/INFO]: Invincible_Atlas issued server command: /spi open inv bopmoocow23
+[14:15:15] [Server thread/INFO]: Invincible_Atlas issued server command: /spi open inv bopmoocow23
+[14:16:20] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
+[14:17:03] [Server thread/INFO]: Invincible_Atlas issued server command: /spi open ec Invincible_Atlas
+[14:20:02] [Server thread/INFO]: Invincible_Atlas issued server command: /spi open ec Invincible_Atlas
+[14:21:19] [Server thread/INFO]: Invincible_Atlas issued server command: /spi open ec Invincible_Atlas
+[14:21:36] [Server thread/INFO]: Invincible_Atlas has just earned the achievement [DIAMONDS!]
+[14:23:28] [Server thread/INFO]: Invincible_Atlas issued server command: /spi open ec Invincible_Atlas
+[14:26:04] [Server thread/INFO]: Invincible_Atlas issued server command: /home ohme
+[14:26:05] [Server thread/INFO]: Invincible_Atlas issued server command: /home homed
+[14:26:08] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
+[14:26:24] [Server thread/INFO]: Invincible_Atlas issued server command: /spi open ec Invincible_Atlas
+[14:26:36] [Server thread/INFO]: Invincible_Atlas issued server command: /spi open ec Invincible_Atlas
+[14:38:56] [Thread-2/INFO]: Stopping server

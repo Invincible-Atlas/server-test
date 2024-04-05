@@ -8,7 +8,6 @@
 # IRC: #paperspigot @ irc.spi.gt ( http://irc.spi.gt/iris/?channels=PaperSpigot )
 
 config-version: 9
-data-value-allowed-items: []
 settings:
   baby-zombie-movement-speed: 0.5
   limit-player-interactions: true
@@ -20,6 +19,7 @@ stackable-buckets:
   water: false
   milk: false
 warnWhenSettingExcessiveVelocity: true
+data-value-allowed-items: []
 world-settings:
   default:
     verbose: true
@@ -40,6 +40,7 @@ world-settings:
     optimize-explosions: false
     cache-chunk-maps: false
     remove-invalid-mob-spawner-tile-entities: true
+    player-blocking-damage-multiplier: 0.5
     mob-spawner-tick-rate: 1
     squid-spawn-height:
       minimum: 45.0
@@ -66,7 +67,6 @@ world-settings:
       disable-player-crits: false
       disable-chest-cat-detection: false
       disable-end-credits: false
-    player-blocking-damage-multiplier: 0.5
     nether-ceiling-void-damage: false
     load-chunks:
       enderpearls: false
@@ -85,8 +85,8 @@ world-settings:
     use-hopper-check: false
     all-chunks-are-slime-chunks: false
     allow-undead-horse-leashing: false
-    container-update-tick-rate: 1
     keep-spawn-loaded: true
+    container-update-tick-rate: 1
     falling-blocks-collide-with-signs: false
     disable-mood-sounds: false
     use-async-lighting: false
