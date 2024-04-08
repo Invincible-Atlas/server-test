@@ -1,0 +1,31 @@
+location: world:358.671:71.112:272.557
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&5Welcome!'
+    height: 0.3
+  actions:
+    LEFT:
+    - NEXT_PAGE
+    
+- lines:
+  - content: '&1Rules:'
+    height: 0.3
+  actions: {}
+- lines:
+  - content: '&21: No griefing'
+    height: 0.3
+  actions: {}
+- lines:
+  - content: '&32: Be nice'
+    height: 0.3
+  actions: {}
+- lines:
+  - content: '&34: Have fun'
+    height: 0.3
+  actions: {}

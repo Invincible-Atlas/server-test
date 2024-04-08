@@ -4,6 +4,21 @@ Invincible_Atlas:
     X: 368.69999998807907
     Y: 67.0
     Z: 319.46879976335316
+  portal:
+    world: world
+    X: 373.7477828839728
+    Y: 11.0
+    Z: 375.36871931923537
+  nether:
+    world: world_nether
+    X: 47.30682032929028
+    Y: 49.0
+    Z: 32.98514713270375
+  water:
+    world: world
+    X: 382.26120494162393
+    Y: 10.0
+    Z: 382.69999998807907
 BopMooCow23:
   tv:
     world: world

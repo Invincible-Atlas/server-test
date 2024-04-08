@@ -8,10 +8,9 @@ display:
     name: '&c&l%kit_name% &cKit'
     amount: 1
     lore:
-    - '&fThis is a description of the kit.'
+    - '&fA basic kit with some tools and armor'
     - ''
-    - '&7Edit it on the &c%kit_name%.yml &7file'
-    - '&7or using &c/kit edit %kit_name%'
+    - 
     item_flags:
     - HIDE_ATTRIBUTES
   no_permission:
@@ -30,6 +29,56 @@ display:
     - '&cto claim this kit again.'
     item_flags:
     - HIDE_ATTRIBUTES
+items:
+  '1':
+    id: STONE_SPADE
+    name: '&eStarter Shovel '
+    amount: 1
+    preview_slot: 0
+  '2':
+    id: STONE_SWORD
+    name: '&eStarter Sword '
+    amount: 1
+    preview_slot: 1
+  '3':
+    id: STONE_PICKAXE
+    name: '&eStarter Pickaxe '
+    amount: 1
+    preview_slot: 2
+  '4':
+    id: STONE_AXE
+    name: '&eStarter Axe '
+    amount: 1
+    preview_slot: 3
+  '5':
+    id: COOKED_BEEF
+    name: '&eStarter Steak '
+    amount: 16
+    preview_slot: 4
+  '6':
+    id: LEATHER_HELMET
+    name: '&eStarter Helmet '
+    amount: 1
+    color: 10511680
+    preview_slot: 9
+  '7':
+    id: LEATHER_CHESTPLATE
+    name: '&eStarter Chestplate '
+    amount: 1
+    color: 10511680
+    preview_slot: 10
+  '8':
+    id: LEATHER_LEGGINGS
+    name: '&eStarter Leggings '
+    amount: 1
+    color: 10511680
+    preview_slot: 11
+  '9':
+    id: LEATHER_BOOTS
+    name: '&eStarter Boots '
+    amount: 1
+    color: 10511680
+    preview_slot: 12
 actions:
   claim:
     '1':
